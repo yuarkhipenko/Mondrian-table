@@ -19,23 +19,23 @@ table {
 }
 
 td {
-  height: 50px;
+   
   border: 5px solid;
 }
 
 .main_row-w200 {
-  width: 200px;
+  width: 180px;
   height: 80px;
 }
 .main_row-w160 {
-  width: 160px;
+  width: 180px;
 }
 .main_row-w180 {
   width: 180px;
   background-color: yellow;
 }
 .main_row-w40 {
-  width: 40px;
+  width: 45px;
 }
 
 .main_row-h100 {
@@ -70,4 +70,5 @@ td {
 
 .main_row-black {
   background-color: black;
+  width: 125px;
 }
