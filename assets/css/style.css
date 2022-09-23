@@ -12,30 +12,36 @@ body {
 }
 
 table {
-  margin: 30px;
+  margin: 20px;
   width: 600px;
   height: 650px;
   border-collapse: collapse;
+  border: 5px solid;
 }
 
 td {
-   
   border: 8px solid;
 }
 
 .main_row-w200 {
   width: 180px;
   height: 110px;
+  border-top: 0;
+  border-left: 0;
 }
 .main_row-w160 {
+  border-top: 0;
   width: 180px;
 }
 .main_row-w180 {
   width: 180px;
   background-color: yellow;
+  border-top: 0;
 }
 .main_row-w40 {
   width: 50px;
+  border-right: 0;
+  border-top: 0;
 }
 
 .main_row-h100 {
@@ -45,6 +51,9 @@ td {
 
 .main_row-w60 {
   width: 60px;
+  border-left: 0;
+  border-left: 0;
+  border-top: 0;
 }
 
 .main_row-h150 {
@@ -54,21 +63,36 @@ td {
 
 .main_row-h80 {
   height: 80px;
+  border-bottom: 0;
 }
 
 .main_row-blue {
   background-color: blue;
+  border-bottom: 0;
+}
+
+.main_row-r {
+  border-right: 0;
+}
+
+.main_row-l {
+  border-left: 0;
 }
 
 .main_row-yellow {
   background-color: yellow;
+  border-bottom: 0;
+  border-left: 0;
 }
 
 .main_row-red {
   background-color: red;
+  border-bottom: 0;
+  border-right: 0;
 }
 
 .main_row-black {
   background-color: black;
   width: 125px;
+  border-bottom: 0;
 }
